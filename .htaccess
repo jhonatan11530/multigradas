@@ -1,0 +1,40 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php 
+
+RewriteCond %{HTTP_REFERER} !^http://universaldegradas.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://universaldegradas.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.universaldegradas.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.universaldegradas.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://universaldegradas.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://universaldegradas.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.universaldegradas.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.universaldegradas.com$      [NC]
+
+
+# BEGIN WordPress
+# Las directivas (líneas) entre `BEGIN WordPress` y `END WordPress` son
+# generadas dinámicamente, y sólo debe ser modificadas a través de los filtros de WordPress.
+# Cualquier cambio en las directivas entre estos marcadores se sobrescribirá.
+
+
+<IfModule mod_rewrite.c>
+Options +Indexes
+IndexOptions +FancyIndexing
+
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^multigradas\.com\.co$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.multigradas\.com\.co$
+RewriteRule ^/?$ "https\:\/\/multigradas\.com\.co\/" [R=301,L]
+

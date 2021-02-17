@@ -1,0 +1,40 @@
+[05-Jun-2020 15:37:57 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/multig/public_html/wp-content/themes/empresa/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/multig/public_html/wp-content/themes/empresa/index.php on line 9
+[05-Jun-2020 15:38:06 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/multig/public_html/wp-content/themes/empresa/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/multig/public_html/wp-content/themes/empresa/index.php on line 9
+[05-Jun-2020 15:38:21 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/multig/public_html/wp-content/themes/empresa/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/multig/public_html/wp-content/themes/empresa/index.php on line 9
+[05-Jun-2020 15:38:55 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/multig/public_html/wp-content/themes/empresa/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/multig/public_html/wp-content/themes/empresa/index.php on line 9
+[05-Jun-2020 15:57:11 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/multig/public_html/wp-content/themes/empresa/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/multig/public_html/wp-content/themes/empresa/index.php on line 9
+[05-Jun-2020 15:57:20 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/multig/public_html/wp-content/themes/empresa/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/multig/public_html/wp-content/themes/empresa/index.php on line 9
+[06-Jun-2020 08:44:06 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/multig/public_html/wp-content/themes/empresa/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/multig/public_html/wp-content/themes/empresa/index.php on line 9
+[06-Jun-2020 08:50:43 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/multig/public_html/wp-content/themes/empresa/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/multig/public_html/wp-content/themes/empresa/index.php on line 9
+[06-Jun-2020 08:50:46 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/multig/public_html/wp-content/themes/empresa/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/multig/public_html/wp-content/themes/empresa/index.php on line 9
+[06-Jun-2020 08:52:03 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/multig/public_html/wp-content/themes/empresa/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/multig/public_html/wp-content/themes/empresa/index.php on line 9
